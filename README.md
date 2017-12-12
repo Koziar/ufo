@@ -1,7 +1,7 @@
-### Useful links:
+### Useful links for us:
 * [Blog Presentations](https://docs.google.com/spreadsheets/d/1n97YK_4i60fye4hHfsfY9Ugm_-m1qdWhmIumGjdJwVk/edit#gid=0)
 * [UFO Plan](https://datsoftlyngby.github.io/soft2017fall/UFO_plan.html)
-
+* [Blog Entry to review](https://github.com/ovi28/UFO)
 # Continuous Integration: with Travis and Jenkins
 
 ### Abstract
