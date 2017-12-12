@@ -2,7 +2,7 @@
 
 ### Abstract
 
-Creating applications that are continuously being improved by a team of developers can bring up a lot of unwanted problems. This problem has been around for a long time and has slowed down the progression of programs or applications that are continuously improved. Our solution to the problem is to automate the deployment process and continuously integrate new code using cutting edge tools. This has led to safer and faster development as functional and mergeable code is always delivered.
+#### Creating applications that are continuously being improved by a team of developers can bring up a lot of unwanted problems. This problem has been around for a long time and has slowed down the progression of programs or applications that are continuously improved. Our solution to the problem is to automate the deployment process and continuously integrate new code using cutting edge tools. This has led to safer and faster development as functional and mergeable code is always delivered.
 
 #### Continuous Integration
 
