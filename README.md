@@ -2,7 +2,7 @@
 * [Blog Presentations](https://docs.google.com/spreadsheets/d/1n97YK_4i60fye4hHfsfY9Ugm_-m1qdWhmIumGjdJwVk/edit#gid=0)
 * [UFO Plan](https://datsoftlyngby.github.io/soft2017fall/UFO_plan.html)
 * [Blog Entry to review](https://github.com/ovi28/UFO)
-# Continuous Integration: with Travis and Jenkins
+# Continuous Integration: with Travis and Jenkins (Edited after the review)
 
 ### Abstract
 
@@ -45,15 +45,15 @@ For Jenkins we set up a basic CI chain that would integrate our local source cod
 
 The diagram below illustrates the setupset-up we used for our Jenkins CI chain. Each block is a separate service/instance. Each arrow starts from the block which initiates contact to the block the arrow is pointing to. The numbers on the arrows describe the order in which the actions happen. From this diagram you can see exactly how we managed to set-up our Jenkins CI chain.
 
-![Jenkins CI chain flow](www.github.com)
-** Jenkins CI chain flow.
+![Jenkins CI chain flow](https://github.com/Koziar/ufo/blob/master/Screen%20Shot%202017-12-20%20at%2013.39.06.png)
+*Jenkins CI chain flow.
 
 As can be seen in the diagram we have not deployed Jenkins onto its own server. This is due to financial limitations. We as a team did not think it was worth investing more money into this process and decided to sacrifice fully automated CI. But, if our Jenkins had been deployed onto a server that would then have created a fully autonomous CI chain.
 
 Second CI chain that we have setup for our front-end part of the Hacker News project was based on Travis deploying to AWS S3 bucket. To integrate it into our development workflow, first we had to add the project into Travis service by flicking the repository switch on, that is being done from the user profile settings on Travis. You basically choose to which of your repositories you allow Travis to have access to. After this step we have added .travis.yml file into our repository and configured it accordingly so it knows how to install dependencies from npm, build the project and where to deploy it. In the deployment part of the .travis.yml file we had to assign specific environment variables like AWS access key, access secret, bucket name and the region. Those variables are being defined in the settings of that project on Travis. With that setup, every successful build of a merged pull request is being deployed to S3 bucket and goes to the production. A diagram that we made to show off the described chain can be found below. At first glance you can already see it is much simpler and easy to setup, configure and use right away you touch it, comparing to Jenkins, which requires much more adjustment. 
 
-![Travis CI chain flow](www.github.com)
-** Travis CI chain flow.
+![Travis CI chain flow](https://github.com/Koziar/ufo/blob/master/Screen%20Shot%202017-12-20%20at%2013.39.20.png)
+*Travis CI chain flow.
 
 #### Technical Comparison
 
