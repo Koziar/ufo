@@ -2,8 +2,8 @@
 * [Blog Presentations](https://docs.google.com/spreadsheets/d/1n97YK_4i60fye4hHfsfY9Ugm_-m1qdWhmIumGjdJwVk/edit#gid=0)
 * [UFO Plan](https://datsoftlyngby.github.io/soft2017fall/UFO_plan.html)
 * [Blog Entry to review](https://github.com/ovi28/UFO)
-# Continuous Integration: with Travis and Jenkins (Edited after the review)
-
+# Continuous Integration: with Travis and Jenkins
+(Edited after the review)
 ### Abstract
 
 #### Creating software that is continuously being improved by a team of developers can make it hard to have the newest functional code in a production environment. This problem has been around for a long time and has slowed down the development and release cycles. Our solution to the problem is to automate the deployment process and continuously integrate new code using cutting edge tools. This has led to safer and faster development as functional code is always delivered and developer hours are not wasted.
